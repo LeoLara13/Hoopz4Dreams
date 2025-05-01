@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball Tips</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background: #ff7b0e;
+      color: #f8fafc;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #ff7b0e, #ffffff);
+      color: white;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.25rem;
+      max-width: 600px;
+    }
+    .cta-button {
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #ffffff;
+      color: #ff7b0e;
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #eab308;
+    }
+  </style>
+</head>
+<style>.basketball-header {
+  background: linear-gradient(90deg, #000000, #000000);
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.basketball-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.basketball-header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff7b0e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+
+.basketball-header .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.basketball-header .nav-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.basketball-header .nav-links li a:hover {
+  color: #facc15;
+}
+
+/* Responsive Nav */
+@media (max-width: 768px) {
+  .basketball-header .nav-links {
+    flex-direction: column;
+    background-color: #0f172a;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 200px;
+    display: none;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .basketball-header .nav.active .nav-links {
+    display: flex;
+  }
+
+  .basketball-header .nav-toggle {
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+  }
+}</style>
+<body>
+  <header class="basketball-header">
+    <div class="container">
+      <div class="logo">🏀 Hoopz4Dreams  </div>
+      <nav class="nav">
+        <ul class="nav-links">
+
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Who We Are">Who We Are</a></li>
+          <li><a href="#section-header">Services</a></li>
+          <li><a href="#tips">Tips</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ 
+</nav>
+  <header id="Home">
+
+   <h2>HOOPZ4DREAMS</h2> 
+    <h1>DISCOVER YOUR GAME</h1>
+    <p>Discover essential basketball tips to sharpen your skills, improve your strategy, and dominate on the court—whether you're a beginner or a seasoned player.</p>
+  
+    <button = " class="cta-button">LEARN MORE</button>
+    
+  </header>
+  <section id="Who We Are" 
+  style="padding: 60px 20px; max-width: 1000px; margin: auto; display: flex; flex-wrap: wrap; gap:
+   40px; align-items: center; justify-content: center;">
+    <div class="who-text" 
+    style="flex: 1 1 400px; text-align: left;">
+      <h2 style="font-size: 2.5rem; color: #ffffff; margin-bottom: 20px;">Who Are We?</h2>
+      <p >
+        We're a passionate team of basketball enthusiasts, former players, and certified coaches dedicated to helping players reach their full potential. With a deep love for the game and years of experience, we provide practical, easy-to-follow tips designed to elevate performance at every level. Whether you're learning to dribble or refining your defensive strategies, we're here to coach, motivate, and inspire.
+      </p>
+    </div>
+    <div class="who-image" 
+    style="flex: 1 1 300px;">
+      <img src="modernB.jpg"Basketball coaching" 
+      style="max-width: 100%; border-radius: 16px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);">
+    </div>
+  </section>
+  
+  <section id="section-header" 
+  style="background: linear-gradient(135deg, #ff7b0e, #ffffff); padding: 60px 20px 30px; color: #fff; text-align: center;">
+    <h1 style="font-size: 2.8rem; margin-bottom: 10px;">Our Services</h1>
+    <p style="font-size: 1.1rem; max-width: 700px; margin: auto;">Unlock your full potential with expert basketball tips and coaching, designed for hoopers at every level—from gym rookies to court kings.</p>
+  </section>
+  
+  <section class="services-container" 
+  style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; padding: 40px 20px 80px; max-width: 1200px; margin: auto; background-color: #;(135deg, #ff7f0e, #face9c)">
+    <div class="service-card" 
+    style="background-color: #cccccc; padding: 30px; border-radius: 16px; width: 300px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); transition: transform 0.3s ease;">
+      <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 10px;">Shooting Techniques</h3>
+      <p style="color: #000000;">Perfect your jump shot, layups, and three-point game with drills used by elite shooters in the league.</p>
+    </div>
+    <div class="service-card" 
+    style="background-color: #cccccc; padding: 30px; border-radius: 16px; width: 300px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);">
+      <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 10px;">Ball Handling</h3>
+      <p style="color: #000000;">Train like a point guard with moves that break ankles—improve your control, speed, and creativity with the rock.</p>
+    </div>
+    <div class="service-card" 
+    style="background-color: #cccccc; padding: 30px; border-radius: 16px; width: 300px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);">
+      <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 10px;">Defense Strategies</h3>
+      <p style="color: #000000;">Lock down your opponents with expert zone, man-to-man, and on-ball defense techniques used by pros.</p>
+    </div>
+    <div class="service-card"
+     style="background-color: #cccccc; padding: 30px; border-radius: 16px; width: 300px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);">
+      <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 10px;">Conditioning & Fitness</h3>
+      <p style="color: #000000;">Get game-ready with explosive workouts and endurance plans that help you dominate all four quarters.</p>
+    </div>
+    <div class="service-card" 
+    style="background-color: #cccccc; padding: 30px; border-radius: 16px; width: 300px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);">
+      <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 10px;">Virtual Coaching</h3>
+      <p style="color: #000000;">Submit game footage for pro-level analysis and receive a custom plan from real basketball trainers.</p>
+    </div>
+    <div class="service-card" 
+    style="background-color: #cccccc; padding: 30px; border-radius: 16px; width: 300px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);">
+      <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 10px;">Teamwork & Mental Skills</h3>
+      <p style="color: #000000;">Develop court awareness, leadership, and clutch mindset so you’re always ready in crunch time.</p>
+    </div>
+  </section>
+  <section id="tips" style="background-color: #; padding: 60px 20px;">
+    <div style="text-align: center; color: #ffffff; margin-bottom: 40px;">
+      <h2 style="font-size: 2.8rem;">🏀 Game-Changing Basketball Tips</h2>
+      <p style="color: #f8fafc; font-size: 1.1rem;">Improve your game with proven strategies and daily drills from the pros.</p>
+    </div>
+  
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+      <!-- Tip 1 -->
+      <div style="background-color: #cccccc; color: #ffffff; border-radius: 16px; padding: 30px; width: 300px; box-shadow: 0 10px 20px rgba(0,0,0,0.25);">
+        <h3 style="color: #ffffff;">💥 Master the Fundamentals</h3>
+        <p style="color: #000000;">Great players never skip the basics. Focus on footwork, passing accuracy, and layups in every workout.</p>
+      </div>
+  
+      <!-- Tip 2 -->
+      <div style="background-color: #cccccc; color: #ffffff; border-radius: 16px; padding: 30px; width: 300px; box-shadow: 0 10px 20px rgba(0,0,0,0.25);">
+        <h3 style="color: #ffffff;">🔥 Game-Like Drills</h3>
+        <p style="color: #000000;">Train at game speed. Use defenders, timing, and shot clocks to replicate in-game pressure.</p>
+      </div>
+  
+      <!-- Tip 3 -->
+      <div style="background-color: #cccccc; color: #ffffff; border-radius: 16px; padding: 30px; width: 300px; box-shadow: 0 10px 20px rgba(0,0,0,0.25);">
+        <h3 style="color: #ffffff;">🧠 Mental Toughness</h3>
+        <p style="color: #000000;">Basketball is mental. Visualize success, bounce back from mistakes, and stay focused under pressure.</p>
+      </div>
+  
+      <!-- Tip 4 -->
+      <div style="background-color: #cccccc; color: #ffffff; border-radius: 16px; padding: 30px; width: 300px; box-shadow: 0 10px 20px rgba(0,0,0,0.25);">
+        <h3 style="color: #ffffff;">🏃‍♂️ Off-Ball Movement</h3>
+        <p style="color: #000000;">Learn to create space without the ball. Cut, screen, and read the defense like a pro.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <title>Where to Contact</title>
+  <style>
+     {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #1e293b;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .wave-text {
+      font-size: 4rem;
+      font-weight: 700;
+      color: #ffffff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .wave-text span {
+      display: inline-block;
+      animation: wave 2s ease-in-out infinite;
+    }
+
+    .wave-text span:nth-child(odd) {
+      animation-delay: 0s;
+    }
+
+    .wave-text span:nth-child(even) {
+      animation-delay: 0.2s;
+    }
+
+    @keyframes wave {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+  </style>
+
+  <div class="wave-text">
+    <span>C</span>
+    <span>O</span>
+    <span>N</span>
+    <span>T</span>
+    <span>A</span>
+    <span>C</span>
+    <span>T</span>
+    
+  </div>
+
+  <section class="contact-container">
+    <section id="Contact"
+    <h2></h2>
+    <form class="contact-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required />
+  
+      <label for="email">Your Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+  
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Ask us anything about basketball tips..." required></textarea>
+  
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+<style>
+  .contact-container {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #cccccc;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h2 {
+  font-size: 2rem;
+  color: #facc15;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #979ba0;
+  color: #f8fafc;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #ffffff;
+  color: #0f172a;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #eab308;
+}
+
+</style>  
+
+</body>
+</html>
